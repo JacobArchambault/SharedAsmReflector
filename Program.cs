@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-
 using System.Reflection;
-using System.IO;
 
 namespace SharedAsmReflector
 {
@@ -26,7 +22,7 @@ namespace SharedAsmReflector
             foreach (var pe in publicEnums)
                 Console.WriteLine(pe);
         }
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("***** The Shared Asm Reflector App *****\n");
             // Load System.Windows.Forms.dll from GAC.
